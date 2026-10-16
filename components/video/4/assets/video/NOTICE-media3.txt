@@ -1,0 +1,1 @@
+AndroidX Media3 1.11.1; Copyright The Android Open Source Project. https://github.com/androidx/media/tree/1.11.1
