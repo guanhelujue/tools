@@ -1,0 +1,15 @@
+PASS UIDT background bytes increased; notification pause preserved user intent
+PASS notification pause/resume -> MediaStore complete; exported SHA-256 7d212b9c884f5c77896de960ae17cc341cda43b14d6a971f34ca29ebd4badf7f
+PASS component process killed and recreated; durable ranges produced identical SHA-256
+PASS Wi-Fi disabled with cellular available: waiting-network state and stable saved progress
+PASS Wi-Fi restored: automatic continuation and exported checksum matched
+PASS persistable SAF grant, actual readback checksum, collision rename
+PASS explicit SAF overwrite publishes verified replacement before removing old file
+PASS revoked directory authorization never marked complete
+PASS notification cancel removes temporary segments; complete files remain
+PASS yt-dlp real Internet Archive page: Big Buck Bunny; 4 direct media options
+PASS real extracted media downloaded on Android: 43315070 bytes
+PASS actual FFmpeg stream-copy merge of parsed real media; Android confirms audio and video tracks
+PASS audio-only option and native lossless extraction produce an audio-only file
+PASS component uninstall stops its process and retains exported MediaStore file with identical checksum
+DONE

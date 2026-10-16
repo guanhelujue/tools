@@ -1,0 +1,8 @@
+
+app.toolcase.DownloadAcceptanceTest:.
+
+Time: 107.78
+
+OK (1 test)
+
+

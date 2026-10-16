@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.toolcase.download.core.TransferEngineTest" tests="16" skipped="0" failures="0" errors="0" timestamp="2026-10-16T16:06:27" hostname="GUANHELUJUE" time="26.099">
+  <properties/>
+  <testcase name="droppedConnectionContinuesMissingBytes" classname="app.toolcase.download.core.TransferEngineTest" time="16.646"/>
+  <testcase name="unknownLengthNeverInventsTotal" classname="app.toolcase.download.core.TransferEngineTest" time="1.058"/>
+  <testcase name="response416DoesNotBecomeComplete" classname="app.toolcase.download.core.TransferEngineTest" time="0.046"/>
+  <testcase name="badContentRangeIsRejected" classname="app.toolcase.download.core.TransferEngineTest" time="0.044"/>
+  <testcase name="largeFileRangesUseLongWithoutGaps" classname="app.toolcase.download.core.TransferEngineTest" time="0.034"/>
+  <testcase name="rejectRangeProbeFallsBackToSingle" classname="app.toolcase.download.core.TransferEngineTest" time="1.071"/>
+  <testcase name="retryAfterIsRespected" classname="app.toolcase.download.core.TransferEngineTest" time="3.264"/>
+  <testcase name="customHeadersCannotBreakRangeOrInjectNewHeaders" classname="app.toolcase.download.core.TransferEngineTest" time="0.034"/>
+  <testcase name="changedResourceNeverSplicesVersions" classname="app.toolcase.download.core.TransferEngineTest" time="0.078"/>
+  <testcase name="realParallelRangesAndChecksum" classname="app.toolcase.download.core.TransferEngineTest" time="0.342"/>
+  <testcase name="wrongTrustedHashNeverPasses" classname="app.toolcase.download.core.TransferEngineTest" time="0.338"/>
+  <testcase name="redirectAndEncodedDisposition" classname="app.toolcase.download.core.TransferEngineTest" time="0.586"/>
+  <testcase name="pauseResumeOnlyMissingBytesAndNewEngineInstance" classname="app.toolcase.download.core.TransferEngineTest" time="0.365"/>
+  <testcase name="ignoresActualRangeAfterValidProbeDoesNotConcatenate200" classname="app.toolcase.download.core.TransferEngineTest" time="1.078"/>
+  <testcase name="forbiddenIsNotInfinitelyRetried" classname="app.toolcase.download.core.TransferEngineTest" time="0.036"/>
+  <testcase name="ignoreRangeFallsBackToSingle" classname="app.toolcase.download.core.TransferEngineTest" time="1.077"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

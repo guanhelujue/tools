@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="app.toolcase.download.core.LargeTransferTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-10-16T16:04:48" hostname="GUANHELUJUE" time="99.249">
+  <properties/>
+  <testcase name="fullFourGiBPlusTail" classname="app.toolcase.download.core.LargeTransferTest" time="99.249"/>
+  <system-out><![CDATA[FULL_LARGE_FILE bytes=4295032853 sha256=1916a2bfea313a8c87be5082ce759931cca1bea21a6026fcc3e6e55d800bd720
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

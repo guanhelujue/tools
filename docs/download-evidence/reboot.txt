@@ -1,0 +1,1 @@
+PASS real emulator reboot; paused record and durable ranges survived; user pause retained after opening; explicit resume exported matching SHA-256 7d212b9c884f5c77896de960ae17cc341cda43b14d6a971f34ca29ebd4badf7f
