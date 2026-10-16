@@ -9,11 +9,11 @@
 | CLI | 2.1.0 | `components/cli/3` |
 | 离线 ASR | 2.1.0 | `components/asr/3` |
 | 视频剪辑 | 2.2.0 | `components/video/4` |
-| ComfyUI | 1.1.1 | `components/comfy/4` |
+| ComfyUI | 1.2.0 | `components/comfy/5` |
 | 文本统计 | 1.0.0 | `components/text/2` |
 | 颜色转换 | 1.0.0 | `components/color/2` |
 
-ComfyUI 1.1.1 修复输入地址和口令后返回主页面、连接无法保存的问题：组件现在包含登录流程需要的运行配置类。保留暖白与墨绿创作界面、四个底部入口、提示词优先布局，以及可展开的模型 / LoRA / 高级参数。连接入口在模块右上角，模型库位于创作页“模型与 LoRA”中。节点编辑、工作流保存与导入导出继续可用。0.9.1 主应用无需重新安装，同步仓库后仅更新 ComfyUI。
+ComfyUI 1.2.0 将底部合并为“创作”和“任务”：在创作页的工作流选择面板中导入、选择和管理工作流；任务卡片同时显示进度、作品预览和保存入口。点击任务右上角“…”可删除任务，电脑服务需更新至 0.5.0。删除会移除工具匣任务及回传作品；手机已保存文件和 ComfyUI 原始输出保留，已开始的显卡计算不会被强制中断。另区分“电脑离线”和“ComfyUI 未启动”。沿用暖白与墨绿风格，保留登录修复和节点编辑；主应用仍为 0.9.1，同步仓库后仅更新 ComfyUI。
 
 ASR 使用 `sherpa-onnx-paraformer-zh-2023-09-14` INT8 ONNX 中英模型，识别模型和词表从 [Hugging Face 固定版本](https://huggingface.co/csukuangfj/sherpa-onnx-paraformer-zh-2023-09-14/tree/def027084691107096b5ebba69785756d63de6c5) 下载，Silero VAD 从 [Sherpa 官方发布](https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx) 下载。模型约 232.8 MiB，来源与 SHA-256 写入 ASR 签名清单。下载完成后离线识别，权重不存于此仓库。
 
