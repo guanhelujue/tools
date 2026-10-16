@@ -48,17 +48,17 @@
         },
         {
             "id": "comfy",
-            "versionName": "1.1.0",
-            "versionCode": 3,
+            "versionName": "1.1.1",
+            "versionCode": 4,
             "moduleApi": 2,
             "minHostVersion": 12,
-            "path": "components/comfy/3",
-            "bytes": 688836,
+            "path": "components/comfy/4",
+            "bytes": 689140,
             "modelBytes": 0,
             "manifestBytes": 240,
-            "manifestSha256": "9cb85263e3f8e24a907c088201c924905806cee1022c9ea59f21ba9f3a754a3f",
+            "manifestSha256": "397ea1f81ecf82cf92876d2656af618ed206fa7c8092d9cfd68cfd99cba8ad68",
             "signatureBytes": 256,
-            "signatureSha256": "6700d251bda4cc53b98a75170edc764d226082fe3f46e7f54b25c6084a8b8be1",
+            "signatureSha256": "255d7ef49a796fbfa8d9527e6257a5debe46dc2d520da1e3bf07bef91a29fdaa",
             "signerSha256": "13e882b9c37ee2a045a4532b6b096b62f7a684d6253ffc7d187f970ffe046785"
         },
         {
