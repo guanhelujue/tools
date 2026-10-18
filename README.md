@@ -9,9 +9,11 @@
 | CLI | 3.1.2 | `components/cli/7` |
 | 离线 ASR | 3.0.0 | `components/asr/5` |
 | 视频剪辑 | 3.0.1 | `components/video/6` |
-| ComfyUI | 2.0.0 | `components/comfy/6` |
+| ComfyUI | 2.1.0 | `components/comfy/7` |
 | 下载中心 | 1.0.0 | `components/download/2` |
 | 相册助手（AI 相册） | 1.2.0 | `components/album/6` |
+
+ComfyUI 2.1.0 新增「电脑工作流」：读取电脑 ComfyUI 已保存的文件，直接修改提示词和尺寸后运行，保留原有模型和节点配置。完成图片可点击查看大图，支持缩放、拖动、复位与保存。同步仓库后更新 ComfyUI，并使用配套电脑连接服务 0.6.0。详见 [更新与使用说明](docs/comfy-2.1.0.md)，[电脑服务源码包](desktop/comfy-bridge-0.6.0.zip)。
 
 ComfyUI 2.0.0 把工作流保存在手机：离线编辑参数与节点画布，模型选项来自电脑同步，运行时发送完整工作流；支持系统横竖屏切换。同步仓库后单独更新 ComfyUI，并更新电脑连接服务。详见 [手机工作台说明](docs/comfy-2.0.0.md)。
 
@@ -50,4 +52,3 @@ ASR 使用 `sherpa-onnx-paraformer-zh-2023-09-14` INT8 ONNX 中英模型，识�
 需要先安装 **工具匣 0.12.2 / versionCode 22 或更新兼容宿主**，再同步仓库更新相册。旧宿主没有新悬浮服务，仅更新组件不够。主 APK 单独交付。
 
 新增 SQLite 倒排检索和本地稀疏词项向量，旧描述直接迁移，无需重新计费分析；尚未接入或验证神经语义 Embeddings。15 项单元测试和 16 项模拟器设备测试通过；真实模型识图与 HyperOS 真机兼容性仍待验证。详见 [使用与检索说明](docs/ai-album-1.2.0.md)及[验证记录](docs/ai-album-1.2.0-validation.md)。
-
