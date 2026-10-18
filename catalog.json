@@ -124,21 +124,21 @@
         },
         {
             "id": "comfy",
-            "versionName": "2.1.0",
-            "versionCode": 7,
+            "versionName": "2.1.1",
+            "versionCode": 8,
             "moduleApi": 2,
             "minHostVersion": 12,
             "title": "ComfyUI",
             "description": "\u8c03\u7528\u7535\u8111\u5de5\u4f5c\u6d41\uff0c\u4fee\u6539\u63d0\u793a\u8bcd\u4e0e\u5c3a\u5bf8\uff0c\u70b9\u51fb\u67e5\u770b\u5927\u56fe",
             "tag": "MOBILE STUDIO",
             "keywords": "comfy workflow image video \u5de5\u4f5c\u6d41 \u8282\u70b9 \u751f\u56fe \u89c6\u9891 \u6a21\u578b \u7535\u8111 \u539f\u56fe",
-            "path": "components/comfy/7",
-            "bytes": 1022361,
+            "path": "components/comfy/8",
+            "bytes": 1057893,
             "modelBytes": 0,
             "manifestBytes": 241,
-            "manifestSha256": "0092d9d292380e8427fdae2864150ee7a0919708a2756806115210ad82c2ace2",
+            "manifestSha256": "4913aa9d666f8a0f12035a42a3054362732615c6a6d523add8587bcc5df8569e",
             "signatureBytes": 256,
-            "signatureSha256": "a9350cd09e3fcd617631c3c626eaf78bc912ccbb60ecc1f6b4524859c4c8d744",
+            "signatureSha256": "533311057b0bdc9aad36343110b69f34c2aa889ce885db5cd4d744afc00a2bcd",
             "signerSha256": "13e882b9c37ee2a045a4532b6b096b62f7a684d6253ffc7d187f970ffe046785"
         }
     ]

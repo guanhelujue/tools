@@ -9,9 +9,11 @@
 | CLI | 3.1.2 | `components/cli/7` |
 | 离线 ASR | 3.0.0 | `components/asr/5` |
 | 视频剪辑 | 3.0.1 | `components/video/6` |
-| ComfyUI | 2.1.0 | `components/comfy/7` |
+| ComfyUI | 2.1.1 | `components/comfy/8` |
 | 下载中心 | 1.0.0 | `components/download/2` |
 | 相册助手（AI 相册） | 1.2.0 | `components/album/6` |
+
+ComfyUI 2.1.1 修复任务图片滑出再滑回时重复下载：自动下载近期图片原图，预览与大图共享应用缓存，重复查看和保存优先读取本地文件。缓存设有容量上限，失败可重试。同步仓库后单独更新 ComfyUI，电脑服务无需重启。详见 [图片缓存说明与验证](docs/comfy-2.1.1.md)。
 
 ComfyUI 2.1.0 新增「电脑工作流」：读取电脑 ComfyUI 已保存的文件，直接修改提示词和尺寸后运行，保留原有模型和节点配置。完成图片可点击查看大图，支持缩放、拖动、复位与保存。同步仓库后更新 ComfyUI，并使用配套电脑连接服务 0.6.1。详见 [更新与使用说明](docs/comfy-2.1.0.md)，[电脑服务源码包](desktop/comfy-bridge-0.6.1.zip)。
 
