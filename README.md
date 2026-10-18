@@ -10,8 +10,6 @@
 | 离线 ASR | 3.0.0 | `components/asr/5` |
 | 视频剪辑 | 3.0.1 | `components/video/6` |
 | ComfyUI | 2.0.0 | `components/comfy/6` |
-| 文本统计 | 1.0.0 | `components/text/2` |
-| 颜色转换 | 1.0.0 | `components/color/2` |
 | 下载中心 | 1.0.0 | `components/download/2` |
 | 相册助手（AI 相册） | 1.2.0 | `components/album/6` |
 
