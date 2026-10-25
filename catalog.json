@@ -143,21 +143,21 @@
         },
         {
             "id": "chat",
-            "versionName": "1.1.3",
-            "versionCode": 6,
+            "versionName": "1.2.0",
+            "versionCode": 7,
             "moduleApi": 2,
-            "minHostVersion": 24,
+            "minHostVersion": 27,
             "title": "AI \u5bf9\u8bdd",
             "description": "\u8fde\u7eed\u5bf9\u8bdd\u3001\u667a\u80fd\u641c\u7d22\u4e0e\u6765\u6e90\u3001\u659c\u6760\u5207\u6362\u6a21\u578b\u53ca\u4e0a\u4e0b\u6587\u538b\u7f29\u3002",
             "tag": "AI CHAT",
             "keywords": "chat ai gpt \u5bf9\u8bdd \u804a\u5929 \u6a21\u578b \u4e0a\u4e0b\u6587 \u538b\u7f29 \u641c\u7d22 \u8054\u7f51 \u6765\u6e90 tavily deepseek",
-            "path": "components/chat/6",
-            "bytes": 347427,
+            "path": "components/chat/7",
+            "bytes": 401031,
             "modelBytes": 0,
             "manifestBytes": 239,
-            "manifestSha256": "3c052f93b24ae26859e9cbb6123ea393ac3cd7e5aaf1ddac6ef26c5033c378fd",
+            "manifestSha256": "c23bf23462f81b4aee58193ae0bd9b59c24c242191e854de15b18e297b5a517a",
             "signatureBytes": 256,
-            "signatureSha256": "fe94506d73af78905eba61b017bb6dada332d5ba14386365daef20a9ae344bba",
+            "signatureSha256": "ce5c62c8d1df22445a61fed6f10658711cbed70966eea626431ef89128582487",
             "signerSha256": "13e882b9c37ee2a045a4532b6b096b62f7a684d6253ffc7d187f970ffe046785"
         }
     ]
