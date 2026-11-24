@@ -2,11 +2,11 @@
     "schemaVersion": 1,
     "packageName": "app.toolcase",
     "repository": "guanhelujue/tools",
-    "versionCode": 28,
-    "versionName": "0.18.0",
+    "versionCode": 29,
+    "versionName": "0.18.1",
     "minSdk": 29,
-    "assetId": 674283140,
-    "bytes": 262259235,
-    "sha256": "e9badb828a1d9e9b80bd3fef831529ff9ae664577618c7dabb9d4e7c20706678",
-    "notes": "\u65b0\u589e\u5e94\u7528\u5185\u68c0\u67e5\u66f4\u65b0\u3001\u540e\u53f0\u4e0b\u8f7d\u4e0e\u65ad\u70b9\u7eed\u4f20\uff1b\u6821\u9a8c\u7b7e\u540d\u540e\u901a\u8fc7\u7cfb\u7edf\u5b89\u88c5\u5668\u66f4\u65b0\uff0c\u4fdd\u7559\u8bbe\u7f6e\u548c\u7ec4\u4ef6\u3002"
+    "assetId": 786469802,
+    "bytes": 301905679,
+    "sha256": "075890086a6644c4fb5171fcda1ccc5d97ffe9749ae7923a347e05de4c9d9b83",
+    "notes": "CLIProxyAPI \u6838\u5fc3\u5347\u7ea7\u81f3 v8.1.2\uff0c\u4fdd\u7559 Android \u767b\u5f55\u9002\u914d\u3001\u8d26\u53f7\u6a21\u578b\u4f59\u91cf\u548c\u672c\u5730\u914d\u7f6e\uff1b\u914d\u5957 CLI 4.0.0 \u539f\u751f\u7ba1\u7406\u4e2d\u5fc3\uff0c\u65b0\u589e\u63d0\u4f9b\u5546\u3001\u8def\u7531\u3001\u914d\u7f6e\u3001OAuth\u3001\u914d\u989d\u3001\u65e5\u5fd7\u4e0e\u4e3b\u9898\u7ba1\u7406\u3002"
 }
