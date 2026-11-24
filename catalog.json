@@ -3,17 +3,17 @@
     "modules": [
         {
             "id": "cli",
-            "versionName": "3.1.2",
-            "versionCode": 7,
+            "versionName": "4.0.0",
+            "versionCode": 8,
             "moduleApi": 2,
-            "minHostVersion": 19,
-            "path": "components/cli/7",
-            "bytes": 132693,
+            "minHostVersion": 29,
+            "path": "components/cli/8",
+            "bytes": 256352,
             "modelBytes": 0,
-            "manifestBytes": 373,
-            "manifestSha256": "48735b69757fee12aafe3c8e25d160fdd03bf0ef97f6f916ed88f0c1d5d740ea",
+            "manifestBytes": 514,
+            "manifestSha256": "531ed91ca4f42a5d536c4906741433a31ffca9a6ab368f4ac06bfe3ef92f2126",
             "signatureBytes": 256,
-            "signatureSha256": "d3e419616ee26de9432878cb3ed01a9f5c0c8b7d04a3ab7f8bc7f261e794f1e0",
+            "signatureSha256": "9d00cb1c7032a2060a6c630cabb56884b171cc90e5eede9b282dfd417eebfa73",
             "signerSha256": "13e882b9c37ee2a045a4532b6b096b62f7a684d6253ffc7d187f970ffe046785"
         },
         {

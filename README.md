@@ -1,5 +1,7 @@
 # 工具匣按需组件
 
+EasyCLIProxy 4.0.0 改为 Android 原生管理中心，参考官方面板 v1.29.1 的工作区与暖灰/深色主题；核心升级至 v8.1.2。先安装 [工具匣 0.18.1](https://github.com/guanhelujue/tools/releases/tag/toolcase-v0.18.1)，再同步仓库更新 CLI。账号、模型余量和请求历史保留。详见 [功能范围与验证](docs/cli-4.0.0.md)。
+
 AI 对话 1.2.0 新增渐变思考滑杆、即时回复和折叠思考展示，DeepSeek 按 low / high / max 及官方兼容映射适配。此版需要 **工具匣 0.17.0 / versionCode 27 或更新兼容主应用**；在组件管理同步仓库后更新 AI 对话。本次仅发布对话组件，不上传主 APK。原会话、搜索配置和提示词继续保留。详见 [使用与验证说明](docs/ai-chat-1.2.0.md)。
 
 此仓库提供工具匣 Android 的组件文件，各组件最低宿主版本见签名清单。下载中心需要 **0.10.2 / versionCode 18 或更新兼容宿主**，配套验证主 APK 为 **0.11.0 / versionCode 19**。历史 0.9.1 / versionCode 13 修复 0.9.0 同步时“组件发布签名不匹配”的二进制传输问题，原有令牌可继续使用。主应用按新组件的最低版本要求升级，CLI、离线 ASR、视频剪辑、ComfyUI、文本统计、颜色转换和下载中心均按需下载。
@@ -8,7 +10,7 @@ AI 对话 1.2.0 新增渐变思考滑杆、即时回复和折叠思考展示，D
 
 | 组件 | 版本 | 目录 |
 | --- | --- | --- |
-| CLI | 3.1.2 | `components/cli/7` |
+| CLI | 4.0.0 | `components/cli/8` |
 | 离线 ASR | 3.0.0 | `components/asr/5` |
 | 视频剪辑 | 3.0.1 | `components/video/6` |
 | ComfyUI | 2.1.1 | `components/comfy/8` |
